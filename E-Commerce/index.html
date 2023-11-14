@@ -1,0 +1,44 @@
+<!-- The code you provided is an HTML document. It defines the structure and content of a web page. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Product 1 -->
+    <div class="product">
+        <img src="../Images/Shoe-1.jpg" alt="Product 1">
+        <h2>ASICS</h2>
+        <p>Men's Gel-Contend 4B+ Running Shoes</p>
+        <p class="product-price">₹3,029 <br><h3>M.R.P: ₹3,999 (24% off)</h3></p>
+        <button onclick="addToCart('ASICS', 3999)">Add to Cart</button>
+    </div>
+    
+    <!-- Product 2 -->
+    <div class="product">
+        <img src="../Images/Shoe-2.jpg" alt="Product 2">
+        <h2>Skechers</h2>
+        <p>Skechers Mens Go Run Glide-Step Fl Running Shoe</p>
+        <p class="product-price">₹5,849 <br><h3>M.R.P: ₹8,999 (35% off)</h3>
+        </p>
+        <button onclick="addToCart('Skechers', 8999)">Add to Cart</button>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product">
+        <img src="../Images/Shoe-3.jpg" alt="Product 3">
+        <h2>Skechers</h2>
+        <p>Mens-UNO 2 - Comfort Two -Sneakers</p>
+        <p class="product-price">₹5,849 <br><h3>M.R.P: ₹8,999 (35% off)</h3>
+        </p>
+        <button onclick="addToCart('Skechers', 8999)">Add to Cart</button>
+    </div>
+    <button id="viewCart">View Cart</button>
+
+    <!-- javascript for buttons -->
+    <script src="script.js"></script>
+</body>
+</html>
